@@ -6,8 +6,8 @@ module Darby
         holdings: reaviz_weights,
         hypotheticalGrowth: df_to_highchart_hash(normalized_df(date_range: timeframe_to_date_range(timeframe: '10y'))),
         dailyTimeseries: df_to_highchart_hash(raw_df),
-        annualizedReturns: hash_to_table(returns_hash),
-        totalReturns: hash_to_table(annualized_returns_hash),
+        annualizedReturns: hash_to_table(annualized_returns_hash),
+        totalReturns: hash_to_table(returns_hash),
       }
     end
 
