@@ -11,4 +11,3 @@
 1. Export the required keys as environment variables. Currently just `export ALPHAVANTAGE_API_KEY=key`. If you don't have a key, get one for free from [AlphaVantage](https://www.alphavantage.co/support/#api-key)
 
 1. Start up the Jupyter notebooks with `bundle exec jupyter notebook`
-
